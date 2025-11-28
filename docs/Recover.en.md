@@ -57,7 +57,7 @@ The framework provides flexible persistence interfaces that allow users to custo
 The following example demonstrates how to implement custom persistence using the GORM plugin:
 
 ```go
-import plugins "github.com/Bilibotter/light-flow-plugins/orm"
+import plugins "github.com/neonyo/light-flow-plugins/orm"
 
 // Open a database connection
 db, _ := gorm.Open(mysql.Open(dsn), &gorm.Config{})
@@ -108,8 +108,8 @@ flow.RecoverFlow("xxxxxxxxxxx")
 ```go
 import (
 	"fmt"
-	plugins "github.com/Bilibotter/light-flow-plugins/orm"
-	"github.com/Bilibotter/light-flow/flow"
+	plugins "github.com/neonyo/light-flow-plugins/orm"
+	"github.com/neonyo/light-flow/flow"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )

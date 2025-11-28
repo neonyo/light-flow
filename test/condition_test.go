@@ -1,7 +1,7 @@
 package test
 
 import (
-	"github.com/Bilibotter/light-flow/flow"
+	"github.com/neonyo/light-flow/flow"
 	"runtime"
 	"strings"
 	"sync/atomic"

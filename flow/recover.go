@@ -8,7 +8,7 @@ package flow
  *   For more details, see the LICENSE file or visit:
  *   https://opensource.org/licenses/MIT
  *
- *   Project: https://github.com/Bilibotter/light-flow
+ *   Project: https://github.com/neonyo/light-flow
  *
  */
 

@@ -20,7 +20,7 @@ LightFlow is a task orchestration framework built in Go, designed to make managi
 - [**Conditional Execution**](./docs/Condition.en.md): Control task execution based on specific conditions.
 - [**Multi-Level Callbacks**](./docs/Callback.en.md): Set callbacks at various levels to manage task status flexibly.
 - [**Event Handling**](./docs/Event.en.md): Handle errors outside of task execution, allowing for event handlers to be set for each stage.
-- [**Custom Persistence Plugins**](https://github.com/Bilibotter/light-flow-plugins/blob/main/README.md): Users can create custom persistence plugins, and LightFlow is not coupled with any ORM framework.
+- [**Custom Persistence Plugins**](https://github.com/neonyo/light-flow-plugins/blob/main/README.md): Users can create custom persistence plugins, and LightFlow is not coupled with any ORM framework.
 
 ---
 
@@ -29,7 +29,7 @@ LightFlow is a task orchestration framework built in Go, designed to make managi
 ### Installation
 
 ```sh
-go get github.com/Bilibotter/light-flow/flow
+go get github.com/neonyo/light-flow/flow
 ```
 
 ### Example
@@ -41,7 +41,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/Bilibotter/light-flow/flow"
+	"github.com/neonyo/light-flow/flow"
 )
 
 func First(step flow.Step) (any, error) {

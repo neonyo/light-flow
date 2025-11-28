@@ -18,7 +18,7 @@ LightFlow 是一个基于 Go 语言的任务编排框架，旨在简化复杂任
 - [**条件执行**](./docs/Condition.cn.md)：根据条件动态控制任务的执行与跳过。
 - [**多级回调**](./docs/Callback.cn.md)：支持在多个层级设置回调，灵活管理任务状态。
 - [**事件处理**](./docs/Event.cn.md)：处理任务执行阶段以外的错误，允许为每个阶段配置事件处理器。
-- [**自定义持久化插件**](https://github.com/Bilibotter/light-flow-plugins/blob/main/README.cn.md)：用户可以自定义持久化插件，LightFlow不与任何 ORM 框架产生耦合，增强灵活性和可扩展性。
+- [**自定义持久化插件**](https://github.com/neonyo/light-flow-plugins/blob/main/README.cn.md)：用户可以自定义持久化插件，LightFlow不与任何 ORM 框架产生耦合，增强灵活性和可扩展性。
 
 ---
 
@@ -27,7 +27,7 @@ LightFlow 是一个基于 Go 语言的任务编排框架，旨在简化复杂任
 ###  安装
 
 ```sh
-go get github.com/Bilibotter/light-flow/flow
+go get github.com/neonyo/light-flow/flow
 ```
 
 ### 示例代码
@@ -39,7 +39,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/Bilibotter/light-flow/flow"
+	"github.com/neonyo/light-flow/flow"
 )
 
 func First(step flow.Step) (any, error) {

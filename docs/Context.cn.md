@@ -77,7 +77,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/Bilibotter/light-flow/flow"
+	"github.com/neonyo/light-flow/flow"
 )
 
 func ReceiveInput(step flow.Step) (any, error) {

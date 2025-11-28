@@ -2,7 +2,7 @@ package test
 
 import (
 	"errors"
-	"github.com/Bilibotter/light-flow/flow"
+	"github.com/neonyo/light-flow/flow"
 	"strings"
 	"sync/atomic"
 	"testing"

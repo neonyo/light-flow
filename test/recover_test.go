@@ -3,7 +3,7 @@ package test
 import (
 	"bufio"
 	"fmt"
-	"github.com/Bilibotter/light-flow/flow"
+	"github.com/neonyo/light-flow/flow"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"log"
